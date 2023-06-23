@@ -1,0 +1,58 @@
+:root {
+  --mine-shaft: #333;
+  --emperor: #4F4F4F;
+  --silver: #BDBDBD;
+  --white: #FFF;
+
+  --title-font: 'Inconsolata', monospace;
+  --content-font: 'Space Mono', monospace;
+  --footer-font: 'Montserrat', sans-serif;
+
+  --text-tiny: 0.875rem;
+  --text-small: 1.125rem;
+  --text-normal: 1.5rem;
+  --text-medium: 3rem;
+  --text-large: 4rem;
+
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --header-height: 1.75rem;
+  --min-height: 59.3125rem;
+}
+
+body {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-block: 0 0;
+}
+
+header {
+  color: var(--mine-shaft);
+  font-family: var(--title-font);
+  padding: 20px 0 0 24px;
+}
+
+footer {
+  height: 2.25rem;
+  width: 100%;
+}
+
+image {
+  height: auto;
+  max-width: 100%;
+}
+
+button {
+  color: var(--white);
+  font-size: var(--text-tiny);
+  cursor: pointer;
+}
